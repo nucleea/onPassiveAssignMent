@@ -34,7 +34,8 @@ export class ForgetComponent {
       this.capCheck = "";
     return false;
     }
-
+    this.num1= Math.floor(Math.random() * 10);
+    this.num2= Math.floor(Math.random() * 10);
     this.capCheck = "";
     this.Cpassword = "";
     this.npassword = "";
